@@ -29,10 +29,19 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
 
+    implementation ("com.github.denzcoskun:ImageSlideshow:0.1.2")
+    implementation ("com.squareup.picasso:picasso:2.71828")
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("com.google.android.material:material:1.10.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    implementation("com.google.android.gms:play-services-maps:18.2.0")
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)

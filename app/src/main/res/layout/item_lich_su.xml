@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/bg_btn"
+    android:elevation="8dp"
+    android:padding="5dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/txtmadon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FF000000"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/txtdienthoai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FF000000"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/txtmakh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FF000000"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/txtngaydat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FF000000"
+        android:textSize="19sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tongTien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#CF2222"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/txttrangthai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#FF0000"
+            android:textStyle="bold"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/txtdiachi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#FF000000"
+            android:textSize="19sp" />
+        <TextView
+            android:id="@+id/txtphuongthuc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#FF000000"
+            android:textSize="19sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:padding="10dp">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnchitiett"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_btn"
+                android:layout_marginRight="10dp"
+                android:text="Chi tiết đơn"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnxoa"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_btn"
+                android:text="Hủy"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

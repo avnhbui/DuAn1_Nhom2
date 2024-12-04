@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Admin"
+            android:id="@+id/nav_quanly"
+            android:visible="false">
+            <menu>
+                <item
+                android:id="@+id/nav_Home"
+                android:icon="@drawable/baseline_home_24"
+                android:title="Trang chủ"
+                />
+                <item
+                    android:id="@+id/nav_loaiseries"
+                    android:icon="@drawable/baseline_phone_iphone_24"
+                    android:title="Quản lý loại Series "
+                     />
+                <item
+                    android:id="@+id/nav_dienthoai"
+                    android:icon="@drawable/baseline_smartphone_24"
+                    android:title="Quản lý điện thoại"
+                     />
+
+                <item
+                    android:id="@+id/nav_khachhang"
+                    android:icon="@drawable/baseline_supervisor_account_24"
+                    android:title="Quản lý khách hàng"
+                     />
+                <item
+                    android:id="@+id/nav_donhang"
+                    android:icon="@drawable/baseline_shopping_cart_checkout_24"
+                    android:title="Quản lý đơn hàng"
+                    />
+
+            </menu>
+        </item>
+
+        <item
+            android:title="Thống kê"
+            android:id="@+id/nav_thongke"
+            android:visible="false">
+            <menu>
+                <item
+                    android:id="@+id/sub_Top"
+                    android:icon="@drawable/baseline_vertical_align_top_24"
+                    android:title="Top" />
+                    />
+                <item
+                    android:id="@+id/sub_DoanhThu"
+                    android:icon="@drawable/baseline_attach_money_24"
+                    android:title="Doanh thu" />
+                 />
+            </menu>
+        </item>
+
+
+        <item android:title="Mua hàng"
+            android:id="@+id/sub_muahang"
+            android:visible="false">
+            <menu>
+                <item
+                    android:id="@+id/sub_tt"
+                    android:icon="@drawable/baseline_home_24"
+                    android:title="Trang chủ"
+                  />
+
+                <item
+                    android:id="@+id/sub_ls"
+                    android:icon="@drawable/baseline_history_24"
+                    android:title="Lịch sử"
+                />
+                <item
+                    android:id="@+id/sub_giohang"
+                    android:icon="@drawable/baseline_shopping_cart_24"
+                    android:title="Giỏ hàng"
+                   />
+                <item
+                    android:id="@+id/sub_hotro"
+                    android:icon="@drawable/baseline_support_agent_24"
+                    android:title="Chăm sóc khách hàng"
+                    />
+
+            </menu>
+        </item>
+
+
+        <item android:title="Cá nhân"
+            android:id="@+id/sub_canhan"
+            android:visible="false">
+            <menu>
+                <item
+                    android:id="@+id/sub_taikhoan"
+                    android:icon="@drawable/baseline_account_circle_24"
+                    android:title="Tài khoản"
+                     />
+
+                <item
+                    android:id="@+id/sub_Logout"
+                    android:icon="@drawable/baseline_logout_24"
+                    android:title="Đăng xuất" />
+            </menu>
+        </item>
+
+
+    </group>
+
+
+</menu>

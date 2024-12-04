@@ -2,6 +2,17 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.NOTIFICATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,14 +23,38 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DuAn1_Nhom2"
         tools:targetApi="31">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBDGBAOOZyv7tVlPQNoLp1yujku4dFZWbQ" />
         <activity
-            android:name=".DangKy"
+            android:name=".activity.ChiTietLS"
             android:exported="false" />
         <activity
-            android:name=".DangNhap"
+            android:name=".activity.Maps"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.HoTroKhachHang"
+            android:exported="false" />
+        <activity
+            android:name=".activity.DanhGiaCustomer"
+            android:exported="false" />
+        <activity
+            android:name=".activity.GioHangCustomer"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ChiTietDT"
+            android:exported="false" />
+        <activity
+            android:name=".activity.TrangChu"
+            android:exported="false" />
+        <activity
+            android:name=".account.DangKy"
+            android:exported="false" />
+        <activity
+            android:name=".account.DangNhap"
+            android:exported="false" />
+        <activity
+            android:name=".account.ManHinhCho"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
